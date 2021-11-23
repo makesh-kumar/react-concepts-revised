@@ -7,6 +7,23 @@
   pointer-events: none;
 }
 
+#portal-test {
+  position: relative;
+  z-index: 999;
+}
+
+.portal-content {
+  background-color: rgba(0, 0, 0, 0.5);
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
